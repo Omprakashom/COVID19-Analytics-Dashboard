@@ -1,3 +1,7 @@
+ # COVID-19 Analytics Dashboard
+
+🚀 Live Dashboard:
+https://your-app-name.streamlit.app
 # COVID-19 Analytics Dashboard
 
 An interactive COVID-19 Analytics Dashboard built using Python, Streamlit, Pandas, and Plotly.
@@ -11,6 +15,17 @@ An interactive COVID-19 Analytics Dashboard built using Python, Streamlit, Panda
 - Daily Deaths visualization
 - Vaccination trend analysis
 - Interactive dashboard built with Streamlit
+## Features
+- Interactive country selection
+- COVID-19 trends
+- Vaccination analysis
+- KPI metrics
+
+## Technologies Used
+- Python
+- Streamlit
+- Pandas
+- Plotly
 
 ## Technologies Used
 
