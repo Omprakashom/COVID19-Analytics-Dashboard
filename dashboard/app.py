@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
-import os
-import plotly.express as px
+import plotly.express as px  
 
 # ---------------------------------------
 # Page Configuration
@@ -15,15 +14,24 @@ st.set_page_config(
 # ---------------------------------------
 # Load Dataset
 # ---------------------------------------
+import gdown
+import os
+
 @st.cache_data
 def load_data():
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    csv_path = os.path.join(base_dir, "..", "data", "owid-covid-data.csv")
+    file_id = "1J-XvXkqhrUakkubRmI8tmSEP1gcoP_MS"
+    url = f"https://drive.google.com/uc?id={file_id}"
 
-    df = pd.read_csv(csv_path)
+    output = "owid-covid-data.csv"
+
+    if not os.path.exists(output):
+        gdown.download(url, output, quiet=False)
+
+    df = pd.read_csv(output)
     df["date"] = pd.to_datetime(df["date"])
 
     return df
+
 
 
 df = load_data()
