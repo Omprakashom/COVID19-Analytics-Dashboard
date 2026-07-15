@@ -1,7 +1,7 @@
  # COVID-19 Analytics Dashboard
 
 🚀 Live Dashboard:
-https://your-app-name.streamlit.app
+https://covid19-analytics-dashboard-9tuj9ymnswq42cw5muekbv.streamlit.app/
 # COVID-19 Analytics Dashboard
 
 An interactive COVID-19 Analytics Dashboard built using Python, Streamlit, Pandas, and Plotly.
