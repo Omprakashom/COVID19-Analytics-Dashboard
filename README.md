@@ -1,6 +1,6 @@
  # COVID-19 Analytics Dashboard
 
-🚀 Live Dashboard:
+ Live Dashboard:
 https://covid19-analytics-dashboard-9tuj9ymnswq42cw5muekbv.streamlit.app/
 # COVID-19 Analytics Dashboard
 
